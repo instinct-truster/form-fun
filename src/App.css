@@ -1,0 +1,39 @@
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.2)
+    ),
+    url("./assets/images/goddess-of-war.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+form {
+  background-color: rgba(89, 89, 89, 0.3);
+  padding: 0px 60px;
+  border-radius: 8px;
+  margin-top: 200px;
+}
+
+h1 {
+  color: rgba(168, 28, 28);
+  text-align: center;
+  text-shadow: 1px 1px 2px white;
+  text-transform: uppercase;
+}
+
+button {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  background-color: rgba(168, 28, 28);
+  text-transform: uppercase;
+  color: white;
+}
